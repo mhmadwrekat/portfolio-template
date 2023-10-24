@@ -1,0 +1,265 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playpen Sans", cursive;
+}
+/* Header Section  */
+/* Header Section  */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: black;
+}
+.heroimage {
+  background-image: url("/assests/img/mhmadwrekat.webp");
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
+}
+nav {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  color: white;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.295);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  margin-left: 6%;
+  font-size: 40px;
+  display: flex;
+  cursor: pointer;
+}
+h1 p {
+  color: #ff1e52;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 7vh;
+  font-size: large;
+  font-weight: 600;
+}
+a:hover {
+  color: #ff1e52;
+  cursor: pointer;
+}
+.subscribeButton {
+  color: white;
+  margin-right: 6%;
+  background-color: #ff1e52;
+  font-size: 17px;
+  font-weight: 800;
+  padding: 8px 25px 8px 25px;
+  border: 0;
+  border-radius: 20px;
+}
+.subscribeButton:hover {
+  scale: 1.1;
+  transition: 1s;
+  cursor: pointer;
+}
+.information {
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 50px;
+}
+.information b {
+  color: #ff1e52;
+}
+#firstLine {
+  color: #b197e0;
+  font-size: 19px;
+  margin-bottom: 7px;
+}
+#lastLine {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.inputDiv {
+  position: relative;
+  display: flex;
+  margin-top: 7%;
+  width: 80%;
+}
+input {
+  width: 100%;
+  padding-right: 20px;
+  border-radius: 18px;
+  padding: 10px 15px 10px 15px;
+  border: #ff1e52 solid 2px;
+}
+.letsStart {
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+  top: 7px;
+  background-color: #ff1e52;
+  color: white;
+  border: 0;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+}
+/* About Me Section */
+/* About Me Section */
+.aboutMeSection {
+  background-color: #1b191b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  color: white;
+}
+.aboutMeSection div {
+  width: 30%;
+}
+.aboutMeSection img {
+  width: 25%;
+  border-radius: 10px;
+  opacity: 80%;
+}
+.Heading {
+  font-size: 55px;
+  font-weight: 900;
+}
+.aboutMeSection b {
+  color: #ff1e52;
+}
+.aboutMeDeveloper {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0px 20px 0px;
+}
+.aboutMeDesc {
+  color: #b197e0;
+  width: 90%;
+}
+.aboutMeButton {
+  color: white;
+  background-color: #ff1e52;
+  border: #ff1e52 solid 1px;
+  padding: 9px 25px 9px 25px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.aboutMeButton:hover {
+  cursor: pointer;
+  background-color: #1b191b;
+  transition: 0.6s;
+}
+/* Our Services Section */
+/* Our Services Section */
+.serviceSection {
+  background-color: #111011;
+  height: 100vh;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.serviceDiv {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+.serviceDiv card {
+  background-color: #1b191b;
+  border-radius: 15px;
+  padding: 40px 25px 40px 25px;
+}
+.cardTitle {
+  margin: 20px 0px 20px 0px;
+  font-weight: 800;
+  font-size: larger;
+}
+.cardDesc {
+  color: #b197e0;
+  margin-bottom: 20px;
+}
+.cardButton {
+  color: white;
+  background-color: #ff1e52;
+  padding: 7px 25px 7px 25px;
+  border: #ff1e52 solid 1px;
+  border-radius: 20px;
+}
+/* Hire Me Section */
+/* Hire Me Section */
+.HireMeSection {
+  background-color: #1b191b;
+  height: 40vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.HireMeSection p {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 4%;
+}
+.HireMeSection div {
+  display: grid;
+}
+.HireMeSection button {
+  margin: auto;
+  background-color: #ff1e52;
+  color: white;
+  border: #ff1e52 solid 1px;
+  font-weight: 900;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+}
+.cardButton:hover {
+  cursor: pointer;
+  background-color: #1b191b;
+  transition: 0.6s;
+}
+.HireMeSection button:hover {
+  cursor: pointer;
+  background-color: #1b191b;
+  transition: 0.6s;
+}
+/* Footer */
+/* Footer */
+footer {
+  background-color: #111011;
+  height: 50vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footerName {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+.footerDesc {
+  color: #b197e0;
+  margin: 4% 0 6% 0;
+}
+.socialDiv {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.socialDiv img:hover {
+  scale: 1.2;
+  transition: 1s;
+  cursor: pointer;
+}
