@@ -1,4 +1,4 @@
-## Template Portfolio, **Desktop website** only using HTML5, CSS3.
+## Template Portfolio, **_Desktop website_** only using HTML5, CSS3.
 
 ### [Live View](https://mhmadwrekat.github.io/portfolio-template/)
 
